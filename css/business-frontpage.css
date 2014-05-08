@@ -6,11 +6,11 @@ body {
 
 /* change the URL to a picture of your choice - the higher quality the better! */
 .business-header {
-	margin:  auto;
+	margin:  auto; 
 	height: 400px;
-	width: 80%;
+	width: 90%;
 	background-size: auto;
-	background-color: #ac3030;
+	background-color: #BF3030;	
 
 
 }
@@ -27,10 +27,20 @@ body {
 	margin:  auto;
 	height: 500px;
 	width: 100%;
-	background-size: 100% 100%;
+	background-size: auto;
 	background-color: #D69662 ;
 
 }
+
+.road{
+	margin-top: 10%;
+    border:2px ;
+    border-radius:25px;
+    margin-right: 10%;
+  
+}
+
+
 
 /* adjust the color and text shadow to optimize legibility once you have an image set - you can also change the vertical positioning if desired  */
 .Welcome{
@@ -38,7 +48,7 @@ body {
 	font-size: 500%;
 	color: #fff;
 	text-align: left;
-	font-style: italic;;
+	font-style: italic;
 }
 .fa{
 	font-family: Lato;
@@ -59,25 +69,30 @@ footer {
 	margin: 50px 0;
 }
 
-h1,h2, p{
+h1,h2,h3 p{
 	font-family: 'Lora', serif;
-	font-size: 100%;
-	text-align: justify;
+	font-size: 95%;
+	text-align: justify center;
 }
 
 .btn-custom {
-  background-color: hsl(190, 73%, 30%) !important;
+  background-color: hsl(0, 0%, 83%) !important;
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22bddc", endColorstr="#147184");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#22bddc), to(#147184));
-  background-image: -moz-linear-gradient(top, #22bddc, #147184);
-  background-image: -ms-linear-gradient(top, #22bddc, #147184);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #22bddc), color-stop(100%, #147184));
-  background-image: -webkit-linear-gradient(top, #22bddc, #147184);
-  background-image: -o-linear-gradient(top, #22bddc, #147184);
-  background-image: linear-gradient(#22bddc, #147184);
-  border-color: #147184 #147184 hsl(190, 73%, 25%);
-  color: #fff !important;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#12a12a12a", endColorstr="#d3d3d3");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#12a12a12a), to(#d3d3d3));
+  background-image: -moz-linear-gradient(top, #12a12a12a, #d3d3d3);
+  background-image: -ms-linear-gradient(top, #12a12a12a, #d3d3d3);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #12a12a12a), color-stop(100%, #d3d3d3));
+  background-image: -webkit-linear-gradient(top, #12a12a12a, #d3d3d3);
+  background-image: -o-linear-gradient(top, #12a12a12a, #d3d3d3);
+  background-image: linear-gradient(#12a12a12a, #d3d3d3);
+  border-color: #d3d3d3 #d3d3d3 hsl(0, 0%, 74.5%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.56);
   -webkit-font-smoothing: antialiased;
+}
+
+.img-circle{
+	margin: auto;
+
 }
