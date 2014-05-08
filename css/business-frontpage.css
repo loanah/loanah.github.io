@@ -96,3 +96,11 @@ h1,h2,h3 p{
 	margin: auto;
 
 }
+
+.navbar{
+	background-color: #D6A781;
+}
+
+.nav{
+	text-color:black;
+}
